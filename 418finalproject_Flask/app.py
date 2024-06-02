@@ -129,3 +129,4 @@ def show_prices(zip_codes, house_type, start_date, end_date):
 
 if __name__ == '__main__':
     app.run(debug=True)
+
