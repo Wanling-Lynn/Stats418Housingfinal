@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>About - Real Estate Analysis</title>
+    <link rel="stylesheet" href="https://stackpath.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    </head>
+    <style>
+        body {
+            font-family: Oswald, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('{{ url_for('static', filename='background.png') }}');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .navbar {
+            overflow: hidden;
+            background-color: rgba(255, 255, 255, 0.8);
+            width: 100%;
+            display: flex;
+            align-items: center; /* Align items vertically */
+            padding: 0px 30px; /* Reduce padding */
+            z-index: 1000; /* Ensure the navbar is above other content */
+            position: fixed;
+            top: 0;
+            left: 0;
+        }
+
+        .navbar a {
+            color: #333;
+            text-align: center;
+            padding: 0px 30px; /* Reduce padding */
+            text-decoration: none;
+        }
+
+        .navbar a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        .logo-home {
+            width: 300px; /* Adjust the width as needed */
+            height: auto; /* Maintains aspect ratio */
+            margin-right: auto; /* Push other items to the right */
+        }
+
+        .container {
+    		background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+    		padding: 20px;
+    		border-radius: 10px;
+    		box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    		width: 80%;
+    		max-width: 800px; /* Increased max-width for wider input box */
+    		text-align: center;
+   		position: absolute; /* Position absolutely within hero-image */
+    		top: 80%;
+    		left: 50%;
+    		transform: translate(-50%, -50%); /* Center the container */
+	}
+
+        .header {
+            margin-top: 0;
+            margin-bottom: 20px;
+        }
+
+        .header h1 {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+
+        .content p {
+            margin-bottom: 40px; /* Add extra spacing between paragraphs */
+            line-height: 1.6; /* Improve readability */
+            text-align: justify; /* Justify text */
+        }
+
+        .footer {
+            text-align: center;
+            padding: 10px 0;
+            background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+            width: 100%;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+        }
+    </style>
+<body>
+    <div class="navbar">
+        <a href="/"><img src="{{ url_for('static', filename='logo_home.png') }}" alt="Home Logo" class="logo-home"></a>
+        <a href="/">Home</a>
+        <a href="/about">About</a>
+        <a href="/source">Source</a>
+    </div>
+    <div class="container">
+        <div class="header text-center">
+            <h1>About Us</h1>
+        </div>
+        <div class="content">
+            <p>In past five years, house prices in different regions have experienced significant changes. House prices have shown different upward and downward trends because of many factors, such as economic growth, policy changes, population mobility and market demand. In general, house prices in large cities and economically developed regions have risen sharply, while some relatively backward or population-losing regions have seen stagnant or even declining house prices.</p>
+            <p>Understanding the changing trends of house prices is crucial for multiple stakeholders. For policymakers, accurate house price trend analysis can help them formulate more effective housing policies and regulatory measures to stabilize the real estate market and prevent the formation of market bubbles. For real estate developers and investors, the analysis of house price trends can provide valuable market insights, helping them make more informed investment decisions and choose the best investment time and area.</p>
+        </div>
+        <div class="header text-center">
+            <h1>Economic Impact</h1>
+        </div>
+        <div class="content">
+            <p>Changes in housing prices have a profound impact on the overall economy. Rising housing prices usually reflect the healthy development of the economy, but too rapid an increase may lead to a real estate bubble, which will have a serious impact on the economy once the bubble bursts. Conversely, falling housing prices may reflect economic recession or population loss, which will have a negative impact on local fiscal revenue and residents' wealth.</p>
+        </div>
+        <div class="header text-center">
+            <h1>Impact on Buyers, Sellers, and Investors</h1>
+        </div>
+        <div class="content">
+            <p>For buyers, rising housing prices mean increased housing costs, which may require more loans and longer repayment periods, affecting their quality of life and spending power. For sellers, rising housing prices provide a good opportunity to sell properties and get higher returns. For investors, understanding the changing trends of housing prices can help them optimize their investment portfolios, maximize returns and avoid risks. In a market where housing prices are rising, investing in real estate is often seen as an effective means of preserving and increasing value, while in a market where housing prices are falling, investors need to be cautious to avoid asset depreciation.</p>
+        </div>
+    </div>
+    <footer class="footer">
+        &copy; 2024 Statistics 418 Final Project
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
