@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Searching the Best House</title>
+    <link rel="stylesheet" href="https://stackpath.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="navbar">
+        <a href="/"><img src="{{ url_for('static', filename='logo_home.png') }}" alt="Home Logo" class="logo-home"></a>
+        <a href="/">Home</a>
+        <a href="/about">About</a>
+        <a href="/source">Source</a>
+    </div>
+    <div class="container">
+        <div class="header text-center">
+            <img src="{{ url_for('static', filename='logo_home.png') }}" alt="Home Logo" class="logo-home">
+            <h1>Find the Best House</h1>
+        </div>
+        <div class="hero-text">
+            <button onclick="location.href='/by_zip_code'" class="btn btn-primary btn-custom">Search by Zip Code</button>
+            <button onclick="location.href='/by_room_type_and_region'" class="btn btn-primary btn-custom">Search by Room Type and Region</button>
+        </div>
+    </div>
+    <footer class="footer">
+        &copy; 2024 Statistics 418 Final Project
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
