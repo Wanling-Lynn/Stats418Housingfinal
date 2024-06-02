@@ -7,7 +7,7 @@ Our division of labor are as bellow:
 Python Flask Project:
 app.py: Xingyu, Zixuan(Plots)
 static: Xingyu
-templates - about.html: Jane, Wanling
+templates - about.html: Jane, Wanling /n
           - home.html: Jane, Wanling
           - index.html: Xingyu, Jane
           - select.type.html: Xingyu, Zixuan
