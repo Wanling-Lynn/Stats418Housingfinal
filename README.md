@@ -21,3 +21,6 @@ app2.R (data dashboard): Zixuan
 Database: Wanling
 We have a large database that cannot be publish on github due to size. 
 
+Database Link: https://drive.google.com/file/d/1syrXNP7jem_eAH8NyUoaVc8UUkx4BfKo/view?usp=sharing
+
+
