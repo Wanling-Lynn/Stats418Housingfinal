@@ -1,4 +1,4 @@
-# Project Overview
+# Housing Price Tracking Web
 
 ## Python Flask Project
 
@@ -9,9 +9,9 @@
 - Contributor: Xingyu
 
 ### templates
-- about.html: Jane, Wanling
-- home.html: Jane, Wanling
-- index.html: Xingyu, Jane
+- about.html: Jingyu, Wanling
+- home.html: Jingyu, Wanling
+- index.html: Xingyu, Jingyu
 - select.type.html: Xingyu, Zixuan
 - show_price.html: Xingyu, Zixuan
 - source.html: Wanling
