@@ -1,26 +1,32 @@
-# Stats418Housingfinal
+# Project Overview
 
-We did this project locally so we do not have detailed pull requests.
+## Python Flask Project
 
-Our division of labor are as bellow:
+### app.py
+- Contributors: Xingyu, Zixuan (Plots)
 
-Python Flask Project:
-app.py: Xingyu, Zixuan(Plots)
-static: Xingyu
-templates - about.html: Jane, Wanling
-          - home.html: Jane, Wanling
-          - index.html: Xingyu, Jane
-          - select.type.html: Xingyu, Zixuan
-          - show_price.html: Xingyu, Zixuan
-          - source.html: Wanling
+### static
+- Contributor: Xingyu
 
-R Shiny Project:
-app.R (data table): Wanling
-app2.R (data dashboard): Zixuan
+### templates
+- about.html: Jane, Wanling
+- home.html: Jane, Wanling
+- index.html: Xingyu, Jane
+- select.type.html: Xingyu, Zixuan
+- show_price.html: Xingyu, Zixuan
+- source.html: Wanling
 
-Database: Wanling
-We have a large database that cannot be publish on github due to size. 
+## R Shiny Project
 
-Database Link: https://drive.google.com/file/d/1syrXNP7jem_eAH8NyUoaVc8UUkx4BfKo/view?usp=sharing
+### app.R (data table)
+- Contributor: Wanling
+
+### app2.R (data dashboard)
+- Contributor: Zixuan
+
+## Database
+- Contributor: Wanling
+- Note: We have a large database that cannot be published on GitHub due to its size.
+- Database Link: https://drive.google.com/file/d/1syrXNP7jem_eAH8NyUoaVc8UUkx4BfKo/view?usp=sharing
 
 
