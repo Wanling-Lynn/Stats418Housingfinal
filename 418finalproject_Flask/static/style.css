@@ -128,7 +128,7 @@ body {
     padding: 15px 25px;
     font-size: 20px;
     background-color: #007bff;
-    color: blue;
+    color: white;
     border: none;
     border-radius: 5px;
 }
@@ -141,7 +141,7 @@ body {
     padding: 5px 25px;
     font-size: 15px;
     background-color: #007bff;
-    color: black;
+    color: white;
     border: none;
     border-radius: 10px;
 }
