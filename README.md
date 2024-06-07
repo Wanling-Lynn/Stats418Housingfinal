@@ -29,5 +29,7 @@
 - Note: We have a large database that cannot be published on GitHub due to its size.
 - Database Link: [https://drive.google.com/file/d/1syrXNP7jem_eAH8NyUoaVc8UUkx4BfKo/view?usp=sharing](https://drive.google.com/drive/folders/1rqFG_cJPdoSwU_HLjZSJUW1abimw994C?usp=sharing)
   
-
+## Report
+Here following link is our report:
+https://docs.google.com/document/d/1XMJnE5gGcvBzLg4zlQz_j5311oWW9hHaoLNAw_UFbGQ/edit?usp=sharing
 
